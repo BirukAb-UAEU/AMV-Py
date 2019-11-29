@@ -1,10 +1,11 @@
 
-# This Python (v2.7) Program cacluates Swift-Skew and Phase Sen. Skew from all edi files
-# saved in a folder.   
-# Author: Biruk A. Cherkose, @2019
+# This Python (v2.7) Program cacluates Swift-Skew and Phase Sen. Skew from all edi files saved in a folder. 
+
+# Author: Biruk A. Cherkose, @2019, Email: 201990083@uaeu.ac.ae
 
 #-----------------------------INPUT from the USER------------------------------
-# write your folder location where  the input EDI files are saved
+# write your folder location where the input EDI files are saved
+# EDI files should be in Impedance format
 
 name_of_folder = r'.'
 
