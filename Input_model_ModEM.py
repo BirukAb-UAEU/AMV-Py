@@ -1,15 +1,13 @@
-
-# -*- coding: utf-8 -*-
 #""" 
-#    *** Input_model_ModEM.py ***
+#                        Input_model_ModEM.py
 #             
 #    This python (2.7) code produces an input model file (3Dmode.rho)for ModEM program.
 #    ModEM is a 3D MT inversion code(Egbert and Kelbert, 2012; Meqbel, 2009; Kelbert et
 #    al., 2014). 
 #
-#    Biruk A. Cherkose
-#    Email: 201990083@uaeu.ac.ae
-#    @2019
+#                     Biruk A. Cherkose
+#                  Email: 201990083@uaeu.ac.ae
+#                              @2019
 #"""
 
 import math
@@ -17,8 +15,8 @@ from  decimal import Decimal
 
 
 #--------------USER Input -------------------------------------
-cell_dimenstion_X = 500
-cell_dimenstion_Y = 500
+cell_dimenstion_X = 500 # Cell dimension in X in meters
+cell_dimenstion_Y = 500 # Cell dimension in Y in meters
 No_cells_x = 34 # No. of cells in X direction (North)
 No_cells_y = 36 # No. of cells in Y direction (East)
 x_pad = 7 # No. of cells added in X direction (North) on one side
@@ -58,7 +56,7 @@ while (Zthickness < (Z_thic*Z_inc_factor**(Nz-1)+1)):
     Zthickness = Zthickness * Z_inc_factor
     zz.append("%.3f"%Zthickness)
 
-print len(zz)
+#print len(zz)
 xcells = []
 xcells.append(str("%.3f"%cell_dimenstion_X))
 ycells = []
@@ -73,10 +71,10 @@ rho_X = Nx*rho_line
 
 m1 = sum(Decimal(i) for i in xxx)/2
 m2 = sum(Decimal(i) for i in yyy)/2
-print m1
-print m2
+#print m1
+#print m2
 with open("3Dmodel.rho", 'w') as wsfile:
-    wsfile.write(" # 3D MT model written by ModEM in WS format\n")
+    wsfile.write(" # 3D MT model written for ModEM in WS format\n")
     wsfile.write(" {}  {}  {}  0 LOGE\n".format(Nx,Ny,Nz))
     for ix in range(len(xxx)):
         wsfile.write(" {} ".format(str(xxx[ix])))
@@ -104,10 +102,4 @@ with open("3Dmodel.rho", 'w') as wsfile:
 #    wsfile.write("\n")
     wsfile.write("0.0")
     
-print len(xxx)
-print len(yyy)
-         
-
-#text_file.write('{:7.7s}\t +{:7.7s}\t {:7.7s}\n'.format(str(period[j]),
-#                             str(freq[j]),str(DET[j])))
-        
+print "(Nx, Ny, Nz) = ({}, {}, {})".format(len(xxx), len(yyy), len(zz))
