@@ -48,7 +48,7 @@
 #     Electromagnetic Methods in Applied Geophysics, volume 2 - Application,  
 #     chapter 8, Society Exploration Geophysicists, 641-711.  
 #
-                                   -----                                                                     
+#                                   -----                                                                     
 
 import math
 from subprocess import Popen, PIPE
