@@ -2,10 +2,13 @@
 #------------------------------------------------------------------------------
 #                              MT1Dinv_Marqaurdt.py
 # 
-#  - This python program Produce the input data, initial model and run a 1D MT
+#  - This python (2.7) program Produce the input data, initial model and run a 1D MT
 #    Inversion Program written by Associate Professor Hideki Mizunaga (kyushu 
 #    University,Japan). The MT 1D Inversion FORTRAN code was written using 
 #    the modefied Marquardt method. 
+
+#                       By Biruk A. Cherkose @2017
+#                       Email: 201990083@uaeu.ac.ae
 # 
 #                            HOW THE PROGRAM WORKS:
 #                               ----------
@@ -45,9 +48,7 @@
 #     Electromagnetic Methods in Applied Geophysics, volume 2 - Application,  
 #     chapter 8, Society Exploration Geophysicists, 641-711.  
 #
-# By Biruk A. Cherkose @2017
-#  email: 201990083@uaeu.ac.ae                                   -----
-#                                                                      
+                                   -----                                                                     
 
 import math
 from subprocess import Popen, PIPE
