@@ -4,9 +4,9 @@ AMV-Py is still at the development stages. The python codes were written in Pyth
 
    Prepared by
    
-     Biruk A. Cherkose: Geology Departement, UAEU
+     Biruk A. Cherkose: Geology Department, UAEU
      
-     Hakim Saibi:  Geology Departement, UAEU
+     Hakim Saibi:  Geology Department, UAEU
      
   Special Thanks to
   
