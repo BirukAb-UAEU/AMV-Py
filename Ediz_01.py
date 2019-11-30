@@ -1,7 +1,7 @@
 """
                 Ediz_01.py
                 ------
-  - This program plots Apparent resistivity and Phase curves
+  - This Python (v2.7) program plots Apparent resistivity and Phase curves
   - Calculates and plots the Swift-Skew (κ) and Phase-Sensitive skew (η) 
   - file (EDI format == imp(z)).
   - Produce *.mt file that conatins caculated Apparent resistivity and Phase values
@@ -15,7 +15,7 @@ HOW THE PROGRAM WORKS
 OUTPUT after Runing the Program
    - JPG files for MT Curves and Swift-Skew (κ) and Phase-Sensitive skew (η)
    - *.mt file
-By Biruk A. Cherkose
+Author: Biruk A. Cherkose, @ 2019, Email: 201990083@uaeu.ac.ae
 """
 
 #---USER INPUT Section-------------
