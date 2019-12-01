@@ -2,7 +2,7 @@
 A collection of Python Scripts for Analysis, Modeling and Visualization of Magneto-Telluric (MT) data.
 AMV-Py is still at the development stage. Codes were written in Python 2.7.
 
-   Prepared by
+   Contributors:
    
      Biruk A. Cherkose: Geology Department, UAEU
      
