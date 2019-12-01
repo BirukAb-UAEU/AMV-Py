@@ -13,3 +13,5 @@ AMV-Py is still at the development stage. Codes were written in Python 2.7.
      Hideki Mizunaga, Kyushu University
      
      Maryadi, Laboratorium Pemodelan Geofisika, Program Studi S1 Geofisika, Universitas Indonesia
+#Requirements 
+Python 2.7
